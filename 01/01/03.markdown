@@ -1,0 +1,3 @@
+> Select a data structure that you have seen previously, and discuss its
+> strengths and limitations.
+
