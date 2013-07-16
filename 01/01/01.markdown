@@ -1,3 +1,8 @@
 > Give a real-world example that requires sorting or a real-world example
 > that requires computing a convex hull.
 
+- different kinds of products in a supermarket require sorting, so we can find each kind in different area (all the PCs or all the headphones for example) (all the apples or all the oranges)
+- convex hill
+  - four schools in an area and we should find the properties enclosed by the four schools
+  - a prison have guard towers and the prison should be ograden so that the towers are inside and very close to the towers 
+

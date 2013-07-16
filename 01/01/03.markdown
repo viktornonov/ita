@@ -1,3 +1,23 @@
 > Select a data structure that you have seen previously, and discuss its
 > strengths and limitations.
 
+* List is a data structure in which you can add/remove/etc elements
+  * strengths - we don't have to know what's the number of elements when initializing the list, can access elements by index, can add or remove elements without bothering about memory allocation
+  * Array list - uses array, allocates/free memory on couple add/remove operations
+    * strengths - frequently adding is fast, accessing element by index is fast
+    * limitations - it takes more memory that is needed, removing is slow
+  * Linked list - uses chain of items, each item contains field and pointer to the next item, allocates/free memory on each add/remove
+    * strengths - it takes only the amount of memory that is needed, removing is fast
+    * limitations - frequently adding/removing is not as fast as in array list (because it allocates memory on every add), accessing element by index is slow
+* Stack - data structure LIFO behaviour
+  * strenghts - ?
+  * limitations - ?
+  * Static Stack - uses array, same as array list
+    * streghts - pushing/poping is fast
+    * limitations - after pushing and popping elements for a long time, we can have the array with a lot empty elements in the beginning (allocated memory that is not needed)
+  * Dynamic stack
+    * streghts - only the needed memory is allocated
+    * limitations - pushing/popping is not as fast as the static stack
+  
+  
+
